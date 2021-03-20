@@ -1,0 +1,17 @@
+.removebutton {
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .row {
+    padding: 10px;
+  }
+  .firstRow {
+    padding-top: 20%;
+  }
+  .addBtn {
+    height: 100%;
+  }
+  .inputToDoList {
+    height: 100%;
+    width: 100%;
+  }
