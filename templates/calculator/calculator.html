@@ -7,10 +7,10 @@
     </div>
     <div class="row">
         <div class="col">
-            <input id="numberA" placeholder="5">
+            <input class="styleSize" id="numberA" placeholder="5">
         </div>
         <div class="col">
-            <select id="selectOp" placeholder="- Select -" class="dropdown" v-model="select">
+            <select id="selectOp" placeholder="- Select -" class="dropdown styleSize" v-model="select">
                 <option value="">- Select -</option>
                 <option value="Plus">Plus +</option>
                 <option value="Minus">Minus -</option>
@@ -19,10 +19,10 @@
              </select>
         </div>
         <div class="col">
-            <input id="numberB" placeholder="5">
+            <input class="styleSize" id="numberB" placeholder="5">
         </div>
         <div class="col">
-            <button id="buttonTotal" @click="sumInputs">click here to check</button>
+            <button class="styleSize btn-danger" id="buttonTotal" @click="sumInputs">click here to check</button>
         </div>
         <div class="col">
             <h3 id="totalOfExcercise">10</h3>
