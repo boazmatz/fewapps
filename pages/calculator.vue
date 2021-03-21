@@ -5,6 +5,7 @@
 export default {
     methods: {
           sumInputs() {
+              console.log("in");
             let totalOfExcersice = document.getElementById("totalOfExcercise")
             let numberA = document.getElementById("numberA").value;
             let numberB = document.getElementById("numberB").value;
