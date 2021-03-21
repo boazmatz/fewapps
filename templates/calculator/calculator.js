@@ -16,11 +16,9 @@ export default {
                 totalOfExcersice.innerHTML = getNumA * getNumB;
             } else if (choosenOperator == 'Division') {
                 totalOfExcersice.innerHTML = getNumA / getNumB;
-            } else {
-                
-            } 
+            }
         }
 
-        }
+    }
 
 }
