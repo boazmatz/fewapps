@@ -2,7 +2,7 @@
     <div class="row firstRow">
         <div class="col text-center">
             <h1>Welcome to the calculator</h1>
-            <p>try Our calculator today!</p>
+            <h2>try Our calculator today!</h2>
         </div>
     </div>
     <div class="row">
@@ -11,12 +11,11 @@
         </div>
         <div class="col">
             <select id="selectOp" placeholder="- Select -" class="dropdown" v-model="select">
-                <option value=""><label>- Select -</label></option>
+                <option value="">- Select -</option>
                 <option value="Plus">Plus +</option>
                 <option value="Minus">Minus -</option>
                 <option value="Multiplication">Multiplication *</option>
                 <option value="Division">Division /</option>
-                <option></option>
              </select>
         </div>
         <div class="col">
@@ -26,7 +25,7 @@
             <button id="buttonTotal" @click="sumInputs">click here to check</button>
         </div>
         <div class="col">
-            <p id="totalOfExcercise">10</p>
+            <h3 id="totalOfExcercise">10</h3>
         </div>
     </div>
 </div>
