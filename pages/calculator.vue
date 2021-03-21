@@ -10,7 +10,8 @@ export default {
             let numberB = document.getElementById("numberB").value;
             let getNumA = Number(numberA)
             let getNumB = Number(numberB)
-            let choosenOperator = this.select;
+
+            var choosenOperator = document.getElementById("selectOp").value;
             if (choosenOperator == 'Plus') {
                 totalOfExcersice.innerHTML = getNumA + getNumB;
             }
