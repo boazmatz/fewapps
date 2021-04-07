@@ -1,0 +1,16 @@
+.main-div {
+    background-color: rgb(240,248,255);
+    height: 100vh;
+}
+.main-col {
+    padding-top: 5%;
+}
+.shesone {
+    width: 30%;
+}
+p {
+    font-family: 'Courier New'
+}
+h {
+    font-family: 'Brush Script MT';
+}
